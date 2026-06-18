@@ -1,8 +1,8 @@
 ﻿#include "StudentGrade.h"
 #include <stdexcept>
 StudentGrade::StudentGrade(const string& subject, GradeType gradeType, int gradePoints) {
-    if (subjectName.empty()) throw invalid_argument("Назва предмета не може бути порожньою!");
-    if (points < 0 || points > 100) throw invalid_argument("Оцінка повинна бути в межах від 0 до 100!");
+    if (subject.empty()) throw invalid_argument("Назва предмета не може бути порожньою!");
+    if (gradePoints < 0 || gradePoints > 100) throw invalid_argument("Оцінка повинна бути в межах від 0 до 100!");
 
     subjectName = subject;
     gType = gradeType;
