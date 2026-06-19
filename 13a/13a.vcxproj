@@ -24,6 +24,7 @@
     <ProjectGuid>{7de30ef2-3ac3-4dd4-9cde-c5eaabf8c8a3}</ProjectGuid>
     <RootNamespace>My13a</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>VNZ</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -139,7 +140,7 @@
     </Manifest>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="13a.cpp" />
+    <ClCompile Include="Main.cpp" />
     <ClCompile Include="MainSystem.cpp" />
     <ClCompile Include="StudentGrade.cpp" />
     <ClCompile Include="UniversityPerson.cpp" />
